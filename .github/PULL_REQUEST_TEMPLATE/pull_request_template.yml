@@ -1,45 +1,47 @@
 ---
 name: Pull Request Template
 about: Template para crear nuevos pull requests
-title: ''
-labels: ''
-assignees: ''
+title: 'Etapa 1 - Configuración y Modelos'
+labels: 'setup, model'
+assignees: 'SebastianFernandezOK'
 
 ---
 
 ## Descripción
-[Describe los cambios realizados en este PR]
+Este Pull Request implementa la Etapa 1 del trabajo práctico: configuración inicial del proyecto y creación de los modelos base. Se configura un proyecto Spring Boot, se agregan las dependencias necesarias, y se implementan las clases `Libro`, `Usuario`, `Prestamo`, junto con los enums `EstadoLibro` y `EstadoUsuario`.
 
 ## Issue Relacionado
-Closes #[número del issue]
+Closes #1
 
 ## Tipo de Cambio
-- [ ] Nueva característica
+- [x] Nueva característica
 - [ ] Corrección de bug
 - [ ] Mejora de documentación
 - [ ] Refactorización
 - [ ] Test
 
 ## Cambios Realizados
-- [ ] Cambio 1
-- [ ] Cambio 2
-- [ ] Cambio 3
+- [x] Configuración de proyecto Spring Boot
+- [x] Agregado de dependencias Web, Test, Lombok
+- [x] Creación del paquete `model`
+- [x] Implementación de modelos `Libro`, `Usuario`, `Prestamo`
+- [x] Definición de enums `EstadoLibro`, `EstadoUsuario`
 
 ## Pruebas Realizadas
-- [ ] Test 1
-- [ ] Test 2
-- [ ] Test 3
+- [x] Compilación exitosa del proyecto
+- [x] Inicio correcto del servidor Spring Boot en puerto 8080
+- [x] Instanciación de modelos en clase main (test manual)
 
 ## Capturas de Pantalla
-[Si aplica, agregar capturas de pantalla]
+_No aplica para esta etapa_
 
 ## Checklist
-- [ ] El código sigue las convenciones de estilo
-- [ ] Se han agregado/actualizado los tests necesarios
-- [ ] La documentación ha sido actualizada
-- [ ] Los tests pasan correctamente
-- [ ] El código está libre de warnings
-- [ ] Se han resuelto los conflictos de merge
+- [x] El código sigue las convenciones de estilo
+- [x] No hay errores de compilación
+- [x] Se documentaron los modelos con comentarios
+- [x] El PR cierra el Issue asociado
+- [x] Rama basada en `main` o `develop`
+- [x] No hay conflictos de merge
 
 ## Notas Adicionales
-[Agregar cualquier nota o consideración adicional] 
+Primera etapa finalizada. Lista para revisión.
