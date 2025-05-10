@@ -3,4 +3,16 @@ D:\Downloads\tp4_programacion_2\programacion-2-trabajo-practico-4-SebastianFerna
 D:\Downloads\tp4_programacion_2\programacion-2-trabajo-practico-4-SebastianFernandezOK\src\main\java\com\biblioteca\sistema_biblioteca\model\Libro.java
 D:\Downloads\tp4_programacion_2\programacion-2-trabajo-practico-4-SebastianFernandezOK\src\main\java\com\biblioteca\sistema_biblioteca\model\Prestamo.java
 D:\Downloads\tp4_programacion_2\programacion-2-trabajo-practico-4-SebastianFernandezOK\src\main\java\com\biblioteca\sistema_biblioteca\model\Usuario.java
+D:\Downloads\tp4_programacion_2\programacion-2-trabajo-practico-4-SebastianFernandezOK\src\main\java\com\biblioteca\sistema_biblioteca\repository\LibroRepository.java
+D:\Downloads\tp4_programacion_2\programacion-2-trabajo-practico-4-SebastianFernandezOK\src\main\java\com\biblioteca\sistema_biblioteca\repository\LibroRepositoryImpl.java
+D:\Downloads\tp4_programacion_2\programacion-2-trabajo-practico-4-SebastianFernandezOK\src\main\java\com\biblioteca\sistema_biblioteca\repository\PrestamoRepository.java
+D:\Downloads\tp4_programacion_2\programacion-2-trabajo-practico-4-SebastianFernandezOK\src\main\java\com\biblioteca\sistema_biblioteca\repository\PrestamoRepositoryImpl.java
+D:\Downloads\tp4_programacion_2\programacion-2-trabajo-practico-4-SebastianFernandezOK\src\main\java\com\biblioteca\sistema_biblioteca\repository\UsuarioRepository.java
+D:\Downloads\tp4_programacion_2\programacion-2-trabajo-practico-4-SebastianFernandezOK\src\main\java\com\biblioteca\sistema_biblioteca\repository\UsuarioRepositoryImpl.java
+D:\Downloads\tp4_programacion_2\programacion-2-trabajo-practico-4-SebastianFernandezOK\src\main\java\com\biblioteca\sistema_biblioteca\service\LibroService.java
+D:\Downloads\tp4_programacion_2\programacion-2-trabajo-practico-4-SebastianFernandezOK\src\main\java\com\biblioteca\sistema_biblioteca\service\LibroServiceImpl.java
+D:\Downloads\tp4_programacion_2\programacion-2-trabajo-practico-4-SebastianFernandezOK\src\main\java\com\biblioteca\sistema_biblioteca\service\PrestamoService.java
+D:\Downloads\tp4_programacion_2\programacion-2-trabajo-practico-4-SebastianFernandezOK\src\main\java\com\biblioteca\sistema_biblioteca\service\PrestamoServiceImpl.java
+D:\Downloads\tp4_programacion_2\programacion-2-trabajo-practico-4-SebastianFernandezOK\src\main\java\com\biblioteca\sistema_biblioteca\service\UsuarioService.java
+D:\Downloads\tp4_programacion_2\programacion-2-trabajo-practico-4-SebastianFernandezOK\src\main\java\com\biblioteca\sistema_biblioteca\service\UsuarioServiceImpl.java
 D:\Downloads\tp4_programacion_2\programacion-2-trabajo-practico-4-SebastianFernandezOK\src\main\java\com\biblioteca\sistema_biblioteca\SistemaBibliotecaApplication.java

@@ -1,17 +1,17 @@
 ---
 name: Pull Request Template
 about: Template para crear nuevos pull requests
-title: 'Etapa 1 - Configuración y Modelos'
-labels: 'setup, model'
+title: 'Etapa 2 - Repositories y Services'
+labels: 'repository, service'
 assignees: 'SebastianFernandezOK'
 
 ---
 
 ## Descripción
-Este Pull Request implementa la Etapa 1 del trabajo práctico: configuración inicial del proyecto y creación de los modelos base. Se configura un proyecto Spring Boot, se agregan las dependencias necesarias, y se implementan las clases `Libro`, `Usuario`, `Prestamo`, junto con los enums `EstadoLibro` y `EstadoUsuario`.
+Este Pull Request implementa la Etapa 2 del sistema de gestión de biblioteca. Se desarrollaron las interfaces y clases concretas para los repositorios y servicios de las entidades `Libro`, `Usuario` y `Prestamo`, utilizando estructuras en memoria (`Map`) para simular la persistencia. Se aplicaron los principios SOLID (ISP y DIP) en el diseño.
 
 ## Issue Relacionado
-Closes #1
+Closes #2
 
 ## Tipo de Cambio
 - [x] Nueva característica
@@ -21,16 +21,16 @@ Closes #1
 - [ ] Test
 
 ## Cambios Realizados
-- [x] Configuración de proyecto Spring Boot
-- [x] Agregado de dependencias Web, Test, Lombok
-- [x] Creación del paquete `model`
-- [x] Implementación de modelos `Libro`, `Usuario`, `Prestamo`
-- [x] Definición de enums `EstadoLibro`, `EstadoUsuario`
+- [x] Interfaces `LibroRepository`, `UsuarioRepository`, `PrestamoRepository`
+- [x] Implementaciones en memoria para cada repositorio
+- [x] Interfaces `LibroService`, `UsuarioService`, `PrestamoService`
+- [x] Implementaciones de los servicios con inyección de dependencias
+- [x] Separación por paquetes y anotaciones `@Repository` / `@Service`
 
 ## Pruebas Realizadas
-- [x] Compilación exitosa del proyecto
-- [x] Inicio correcto del servidor Spring Boot en puerto 8080
-- [x] Instanciación de modelos en clase main (test manual)
+- [x] Test manual desde `main()`: creación de objetos y operaciones básicas
+- [x] Verificación de funcionamiento de `guardar`, `buscar`, `eliminar`
+- [x] El proyecto compila y arranca correctamente
 
 ## Capturas de Pantalla
 _No aplica para esta etapa_
@@ -38,10 +38,10 @@ _No aplica para esta etapa_
 ## Checklist
 - [x] El código sigue las convenciones de estilo
 - [x] No hay errores de compilación
-- [x] Se documentaron los modelos con comentarios
+- [x] Los servicios funcionan como se espera
+- [x] Se organizó correctamente por capas
+- [x] Se respetaron los principios SOLID
 - [x] El PR cierra el Issue asociado
-- [x] Rama basada en `main` o `develop`
-- [x] No hay conflictos de merge
 
 ## Notas Adicionales
-Primera etapa finalizada. Lista para revisión.
+Listo para revisión y merge a `main` o `develop`.
