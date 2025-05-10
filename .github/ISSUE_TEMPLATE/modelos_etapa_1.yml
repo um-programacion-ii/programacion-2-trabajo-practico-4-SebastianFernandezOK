@@ -1,0 +1,45 @@
+---
+name: modelos_etapa_1
+about: modelos_etapa_1
+title: 'Etapa 1 - Configuración y Modelos'
+labels: 'setup, model'
+assignees: 'SebastianFernandezOK'
+
+---
+
+## Descripción
+Implementar la Etapa 1 del sistema de gestión de biblioteca. Esta tarea incluye crear el proyecto Spring Boot con Maven, configurar las dependencias necesarias y desarrollar los modelos base: `Libro`, `Usuario`, `Prestamo`, junto con los enums `EstadoLibro` y `EstadoUsuario`.
+
+## Requisitos Técnicos
+- [x] Crear proyecto Spring Boot con estructura estándar
+- [x] Incluir dependencias: Web, Test y Lombok
+- [x] Crear clase `Libro` con atributos `id`, `isbn`, `titulo`, `autor`, `estado`
+- [x] Crear clase `Usuario` con atributos `id`, `nombre`, `email`, `estado`
+- [x] Crear clase `Prestamo` con atributos `id`, `libro`, `usuario`, `fechaPrestamo`, `fechaDevolucion`
+- [x] Crear enums `EstadoLibro` y `EstadoUsuario`
+- [x] Aplicar anotaciones de Lombok para constructores, getters y setters
+
+## Criterios de Aceptación
+- [x] El proyecto compila sin errores
+- [x] El servidor Spring Boot inicia en puerto 8080
+- [x] El código está organizado en el paquete `model`
+- [x] Se sigue el principio SRP
+- [x] Se realiza el commit en la rama `feature/modelos`
+
+## Dependencias
+- [x] Lombok instalado y configurado
+- [x] Spring Boot configurado correctamente
+
+## Complejidad
+- [x] Baja
+- [ ] Media
+- [ ] Alta
+
+## Labels
+- [x] `setup`
+- [x] `model`
+
+## Asignación
+- Milestone: Etapa 1: Configuración y Modelos  
+- Project: Sistema de Gestión de Biblioteca  
+- Estado: To Do
