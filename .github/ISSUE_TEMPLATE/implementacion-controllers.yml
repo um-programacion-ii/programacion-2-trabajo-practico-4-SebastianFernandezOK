@@ -1,0 +1,42 @@
+---
+name: Issue Template
+about: Template para crear nuevos issues
+title: 'Etapa 3 - Implementación de Controladores REST'
+labels: 'controller'
+assignees: 'SebastianFernandezOK'
+---
+
+## Descripción
+Implementar la capa de controladores REST para el sistema de gestión de biblioteca. Se deben crear controladores para `Libro`, `Usuario` y `Prestamo`, utilizando Spring MVC y aplicando el principio DIP. Los controladores deben exponer endpoints básicos (GET, POST, PUT, DELETE).
+
+## Requisitos Técnicos
+- [x] Crear `LibroController` con todos los endpoints básicos
+- [x] Crear `UsuarioController` con todos los endpoints básicos
+- [x] Crear `PrestamoController` con todos los endpoints básicos
+- [x] Usar `@RestController`, `@RequestMapping`, `@GetMapping`, etc.
+- [x] Inyectar los servicios por constructor
+- [x] Retornar respuestas correctamente mapeadas
+- [ ] (Opcional) Manejo de excepciones con `@ExceptionHandler`
+
+## Criterios de Aceptación
+- [x] El proyecto compila sin errores
+- [x] El servidor arranca correctamente
+- [x] Todos los endpoints funcionan según lo esperado (test manual)
+- [x] Código organizado en `controller/` y con nombres claros
+- [x] Se aplicó el principio DIP
+
+## Dependencias
+- [x] Etapa 2 completada
+
+## Complejidad
+- [ ] Baja
+- [x] Media
+- [ ] Alta
+
+## Labels
+- [x] `controller`
+
+## Asignación
+- Milestone: Etapa 3: Controllers  
+- Project: Sistema de Gestión de Biblioteca  
+- Estado: To Do

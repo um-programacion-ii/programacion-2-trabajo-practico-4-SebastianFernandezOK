@@ -1,17 +1,17 @@
 ---
 name: Pull Request Template
 about: Template para crear nuevos pull requests
-title: 'Etapa 2 - Repositories y Services'
-labels: 'repository, service'
+title: 'Etapa 3 - Controladores REST'
+labels: 'controller'
 assignees: 'SebastianFernandezOK'
 
 ---
 
 ## Descripción
-Este Pull Request implementa la Etapa 2 del sistema de gestión de biblioteca. Se desarrollaron las interfaces y clases concretas para los repositorios y servicios de las entidades `Libro`, `Usuario` y `Prestamo`, utilizando estructuras en memoria (`Map`) para simular la persistencia. Se aplicaron los principios SOLID (ISP y DIP) en el diseño.
+Este Pull Request implementa la Etapa 3 del sistema de gestión de biblioteca. Se desarrollaron los controladores REST para `Libro`, `Usuario` y `Prestamo`, con endpoints básicos para operaciones CRUD. Se aplicó el principio DIP inyectando los servicios por constructor.
 
 ## Issue Relacionado
-Closes #2
+Closes #3
 
 ## Tipo de Cambio
 - [x] Nueva característica
@@ -21,26 +21,24 @@ Closes #2
 - [ ] Test
 
 ## Cambios Realizados
-- [x] Interfaces `LibroRepository`, `UsuarioRepository`, `PrestamoRepository`
-- [x] Implementaciones en memoria para cada repositorio
-- [x] Interfaces `LibroService`, `UsuarioService`, `PrestamoService`
-- [x] Implementaciones de los servicios con inyección de dependencias
-- [x] Separación por paquetes y anotaciones `@Repository` / `@Service`
+- [x] Creación de `LibroController`
+- [x] Creación de `UsuarioController`
+- [x] Creación de `PrestamoController`
+- [x] Endpoints: GET, POST, PUT, DELETE
+- [x] Inyección de servicios por constructor
 
 ## Pruebas Realizadas
-- [x] Test manual desde `main()`: creación de objetos y operaciones básicas
-- [x] Verificación de funcionamiento de `guardar`, `buscar`, `eliminar`
-- [x] El proyecto compila y arranca correctamente
+- [x] Test manual con Postman o curl
+- [x] Validación de creación, consulta y eliminación de entidades
+- [x] Inicio exitoso del servidor
 
 ## Capturas de Pantalla
-_No aplica para esta etapa_
+_No aplica_
 
 ## Checklist
-- [x] El código sigue las convenciones de estilo
-- [x] No hay errores de compilación
-- [x] Los servicios funcionan como se espera
-- [x] Se organizó correctamente por capas
-- [x] Se respetaron los principios SOLID
+- [x] El código compila correctamente
+- [x] Se aplicó DIP correctamente
+- [x] Se usó la estructura de paquetes adecuada
 - [x] El PR cierra el Issue asociado
 
 ## Notas Adicionales
