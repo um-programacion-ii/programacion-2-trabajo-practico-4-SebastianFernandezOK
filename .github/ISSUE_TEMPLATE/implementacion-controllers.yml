@@ -1,0 +1,42 @@
+---
+name: Issue Template
+about: Template para crear nuevos issues
+title: 'Etapa 4: Testing y Documentación'
+labels: 'testing, documentation'
+assignees: 'SebastianFernandezOK'
+---
+
+## Descripción
+Implementar tests unitarios e integración para todos los componentes del sistema. Documentar la API REST, decisiones de diseño y agregar un README completo con instrucciones de uso.
+
+## Requisitos Técnicos
+- [x] Tests unitarios de servicios
+- [x] Tests unitarios de repositorios
+- [x] Tests de integración para controladores
+- [x] README.md con instrucciones de instalación y uso
+- [x] Documentación de endpoints en el README
+
+## Criterios de Aceptación
+- [x] Todos los tests deben ejecutarse sin errores
+- [x] Cobertura de funcionalidades clave (CRUD)
+- [x] Documentación clara y completa
+- [x] README actualizado en la raíz del proyecto
+
+## Dependencias
+- [x] Etapa 1: Modelos
+- [x] Etapa 2: Servicios y Repositorios
+- [x] Etapa 3: Controladores
+
+## Complejidad
+- [ ] Baja
+- [x] Media
+- [ ] Alta
+
+## Labels
+- [x] `testing`
+- [x] `documentation`
+
+## Asignación
+- Milestone: Etapa 4: Testing y Documentación
+- Project: Sistema de Gestión de Biblioteca
+- Estado: In Progress

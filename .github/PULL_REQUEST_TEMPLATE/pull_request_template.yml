@@ -1,45 +1,44 @@
 ---
 name: Pull Request Template
 about: Template para crear nuevos pull requests
-title: ''
-labels: ''
-assignees: ''
-
+title: 'Feature: Etapa 4 - Testing y Documentación'
+labels: 'testing, documentation'
+assignees: 'SebastianFernandezOK'
 ---
 
 ## Descripción
-[Describe los cambios realizados en este PR]
+Se completó la Etapa 4 del trabajo práctico. Se agregaron tests unitarios y de integración para todos los servicios, repositorios y controladores. Además, se creó un `README.md` completo con instrucciones de instalación, uso y documentación de endpoints.
 
 ## Issue Relacionado
-Closes #[número del issue]
+Closes #4
 
 ## Tipo de Cambio
-- [ ] Nueva característica
-- [ ] Corrección de bug
-- [ ] Mejora de documentación
-- [ ] Refactorización
-- [ ] Test
+- [x] Nueva característica
+- [x] Mejora de documentación
+- [x] Test
 
 ## Cambios Realizados
-- [ ] Cambio 1
-- [ ] Cambio 2
-- [ ] Cambio 3
+- [x] Tests de `LibroServiceImpl`, `UsuarioServiceImpl` y `PrestamoServiceImpl` usando Mockito
+- [x] Tests de `LibroRepositoryImpl`, `UsuarioRepositoryImpl` y `PrestamoRepositoryImpl`
+- [x] Tests de integración para todos los controladores usando `@WebMvcTest`
+- [x] Archivo `README.md` con estructura detallada del proyecto
+- [x] Documentación de todos los endpoints REST
 
 ## Pruebas Realizadas
-- [ ] Test 1
-- [ ] Test 2
-- [ ] Test 3
+- [x] `mvnw test` ejecutado exitosamente
+- [x] Todos los tests pasan sin errores (19 en total)
+- [x] Revisión manual de la API en Postman
 
 ## Capturas de Pantalla
-[Si aplica, agregar capturas de pantalla]
+_No aplica_
 
 ## Checklist
-- [ ] El código sigue las convenciones de estilo
-- [ ] Se han agregado/actualizado los tests necesarios
-- [ ] La documentación ha sido actualizada
-- [ ] Los tests pasan correctamente
-- [ ] El código está libre de warnings
-- [ ] Se han resuelto los conflictos de merge
+- [x] El código sigue las convenciones de estilo
+- [x] Se han agregado/actualizado los tests necesarios
+- [x] La documentación ha sido actualizada
+- [x] Los tests pasan correctamente
+- [x] El código está libre de warnings
+- [x] Se han resuelto los conflictos de merge
 
 ## Notas Adicionales
-[Agregar cualquier nota o consideración adicional] 
+Se da por finalizado el desarrollo del TP4. Todos los tests están organizados por capa y el proyecto cumple con los requisitos de arquitectura, SOLID y documentación.
