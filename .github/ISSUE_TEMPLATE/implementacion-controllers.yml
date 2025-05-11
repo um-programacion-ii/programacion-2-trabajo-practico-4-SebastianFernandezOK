@@ -1,32 +1,31 @@
 ---
 name: Issue Template
 about: Template para crear nuevos issues
-title: 'Etapa 3 - Implementación de Controladores REST'
-labels: 'controller'
+title: 'Etapa 4: Testing y Documentación'
+labels: 'testing, documentation'
 assignees: 'SebastianFernandezOK'
 ---
 
 ## Descripción
-Implementar la capa de controladores REST para el sistema de gestión de biblioteca. Se deben crear controladores para `Libro`, `Usuario` y `Prestamo`, utilizando Spring MVC y aplicando el principio DIP. Los controladores deben exponer endpoints básicos (GET, POST, PUT, DELETE).
+Implementar tests unitarios e integración para todos los componentes del sistema. Documentar la API REST, decisiones de diseño y agregar un README completo con instrucciones de uso.
 
 ## Requisitos Técnicos
-- [x] Crear `LibroController` con todos los endpoints básicos
-- [x] Crear `UsuarioController` con todos los endpoints básicos
-- [x] Crear `PrestamoController` con todos los endpoints básicos
-- [x] Usar `@RestController`, `@RequestMapping`, `@GetMapping`, etc.
-- [x] Inyectar los servicios por constructor
-- [x] Retornar respuestas correctamente mapeadas
-- [ ] (Opcional) Manejo de excepciones con `@ExceptionHandler`
+- [x] Tests unitarios de servicios
+- [x] Tests unitarios de repositorios
+- [x] Tests de integración para controladores
+- [x] README.md con instrucciones de instalación y uso
+- [x] Documentación de endpoints en el README
 
 ## Criterios de Aceptación
-- [x] El proyecto compila sin errores
-- [x] El servidor arranca correctamente
-- [x] Todos los endpoints funcionan según lo esperado (test manual)
-- [x] Código organizado en `controller/` y con nombres claros
-- [x] Se aplicó el principio DIP
+- [x] Todos los tests deben ejecutarse sin errores
+- [x] Cobertura de funcionalidades clave (CRUD)
+- [x] Documentación clara y completa
+- [x] README actualizado en la raíz del proyecto
 
 ## Dependencias
-- [x] Etapa 2 completada
+- [x] Etapa 1: Modelos
+- [x] Etapa 2: Servicios y Repositorios
+- [x] Etapa 3: Controladores
 
 ## Complejidad
 - [ ] Baja
@@ -34,9 +33,10 @@ Implementar la capa de controladores REST para el sistema de gestión de bibliot
 - [ ] Alta
 
 ## Labels
-- [x] `controller`
+- [x] `testing`
+- [x] `documentation`
 
 ## Asignación
-- Milestone: Etapa 3: Controllers  
-- Project: Sistema de Gestión de Biblioteca  
-- Estado: To Do
+- Milestone: Etapa 4: Testing y Documentación
+- Project: Sistema de Gestión de Biblioteca
+- Estado: In Progress
